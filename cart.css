@@ -1,0 +1,5 @@
+/* Fix bug affichage radios checkout */
+
+.pull-right {
+  max-width: 190px !important;
+}

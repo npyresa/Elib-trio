@@ -1,0 +1,58 @@
+:root {
+  /* Colors Variables */
+  --neu-0: #fff;
+  --neu-5: #fcfcfc;
+  --neu-10: #f9f9f9;
+  --neu-20: #ebebeb;
+  --neu-30: #d2d2d2;
+  --neu-40: #afafaf;
+  --neu-50: #838383;
+  --neu-60: #565656;
+  --neu-70: #303030;
+  --neu-80: #151515;
+  --neu-90: #060606;
+  --neu-100: #000;
+
+  --pri-5: #f1e6fa;
+  --pri-10: #e3cdf6;
+  --pri-20: #c59dec;
+  --pri-60: #512298;
+  --pri-90: #12022b;
+  --pri: var(--pri-60);
+
+  --sec-5: #fff2ea;
+  --sec-10: #ffe3d2;
+  --sec-20: #ffb99e;
+  --sec-30: #ff8f6c;
+  --sec-50: #ff3f1f;
+  --sec-60: #d82b0c;
+  --sec: var(--sec-50);
+
+  --ter-5: #ffffda;
+  --ter-40: #fcc000;
+  --ter: var(--ter-40);
+
+  --vert-5: #effcdb;
+  --vert-10: #e1f9b7;
+  --vert-20: #caf17c;
+  --vert-50: #91bf00;
+  --vert-80: #465c00;
+  --vert: var(--vert-50);
+
+  /* Shadows Variables*/
+  --shadow-m: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-l: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0px 4px 50px rgba(0, 0, 0, 0.1);
+
+  /* Fonts Variables */
+  --main-font: work-sans, sans-serif;
+  --title-font: 'politica-condensed', sans-serif;
+
+  /* Border Variables */
+  --radius: 6px;
+}
+
+/* Passage des textes en Poppins */
+#detail_description .tab-content span {
+  font-family: 'Poppins' !important;
+}

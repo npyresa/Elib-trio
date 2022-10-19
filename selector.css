@@ -1,0 +1,6 @@
+/* Surcharge bouton sélecteur */
+.rpbox .column.finder {
+  margin: 7px 7px 7px 0;
+  background-color: var(--cvpv2_secondary_color) !important;
+  border-radius: 5px !important;
+}

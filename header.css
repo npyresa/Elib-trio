@@ -1,0 +1,18 @@
+/* Suppression du numéro de téléphone */
+header .right-area #user-menu .npytel {
+  display: none;
+}
+
+/* Customisation selecteur de langue     */
+#lang_menu > li {
+  background-color: var(--cvpv2_primary_color);
+  color: #fff;
+  font-size: 0.8em;
+  transform: translateY(3px);
+}
+
+#lang_menu .submenu {
+  background-color: #dec3f9a8;
+  color: var(--cvpv2_primary_color);
+  font-weight: 900;
+}
