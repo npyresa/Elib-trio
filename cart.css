@@ -1,5 +1,16 @@
-/* Fix bug affichage radios checkout */
+/* Fix bug croix de retrait élément du panier */
+#main_content.sfv2 .cart_item .cart_sub_item .item_option .option_remove.remove_cart_item {
+  margin-right: 10px;
+}
 
+#main_content.sfv2 .cart_item .remove_cart_item:hover:before {
+  color: var(--sec);
+  transform: translate(-50%, -50%) scale(1.1);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/* Fix bug affichage radios checkout */
 .pull-right {
   max-width: 190px !important;
 }

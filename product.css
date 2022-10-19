@@ -1,5 +1,24 @@
-/* Fix bug etudiants */
+/* Bouton - step classique */
 
+.btn-main {
+  background-color: var(--sec);
+  color: white;
+  border-radius: 8px !important;
+}
+
+.btn-main:hover {
+  background-color: var(---60);
+  color: white !important;
+  border: var(--sec-60);
+}
+
+/* Bouton - step options */
+
+#ticket_container .ticket_submit {
+  border-radius: 6px;
+}
+
+/* Fix bug options */
 .option_item .option_desc {
   padding: 10px;
   color: #303030;

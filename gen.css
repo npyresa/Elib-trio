@@ -56,3 +56,55 @@
 #detail_description .tab-content span {
   font-family: 'Poppins' !important;
 }
+
+/* Boutons */
+
+.gl_box_toggleMobile .gl_btn,
+.sfv2 .gl_btn {
+  border-radius: 6px !important;
+  background: var(--sec);
+}
+
+.gl_box_toggleMobile .gl_btn:hover,
+.sfv2 .gl_btn:hover {
+  background: var(--sec-60);
+}
+
+.gl_box_toggleMobile .gl_btn-primary,
+.sfv2 .gl_btn-primary {
+  background-color: var(--sec);
+}
+
+.gl_box_toggleMobile .gl_btn-primary:hover,
+.sfv2 .gl_btn-primary:hover {
+  background-color: var(--sec-60);
+}
+
+/* Bouton code promo */
+#addCouponCode .gl_btn {
+  background-color: var(--sec-20);
+}
+
+#addCouponCode .gl_btn:hover {
+  background-color: var(--sec);
+}
+
+/* Bouton ajouter un forfait */
+#main_content.sfv2 .cart_resume .addforfait {
+  color: var(--sec) !important;
+  font-weight: 700;
+}
+
+#main_content.sfv2 .cart_resume .addforfait:hover {
+  color: var(--sec-60) !important;
+}
+
+/* Bouton valider le panier - bottom*/
+
+#main_content.sfv2 .cart_resume .paiement.btn-main {
+  background-color: var(--sec);
+}
+
+#main_content.sfv2 .cart_resume .paiement.btn-main:hover {
+  background-color: var(--sec-60);
+}
