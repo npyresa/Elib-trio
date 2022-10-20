@@ -59,6 +59,13 @@
 
 /* Boutons */
 
+.ticket_form #ticket_submit:hover,
+.ticket_form #ticket_submit:hover {
+  background-color: var(--sec-50) !important;
+  border-color: var(--sec-50) !important;
+  color: #fff !important;
+}
+
 .gl_box_toggleMobile .gl_btn,
 .sfv2 .gl_btn {
   border-radius: 6px !important;
