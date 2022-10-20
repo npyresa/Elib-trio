@@ -93,10 +93,12 @@
 #main_content.sfv2 .cart_resume .addforfait {
   color: var(--sec) !important;
   font-weight: 700;
+  background: #fff;
 }
 
 #main_content.sfv2 .cart_resume .addforfait:hover {
   color: var(--sec-60) !important;
+  background: #fff;
 }
 
 /* Bouton valider le panier - bottom*/
