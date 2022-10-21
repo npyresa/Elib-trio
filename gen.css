@@ -61,8 +61,8 @@
 
 .ticket_form #ticket_submit:hover,
 .ticket_form #ticket_submit:hover {
-  background-color: var(--sec-50) !important;
-  border-color: var(--sec-50) !important;
+  background-color: var(--pri-90) !important;
+  border-color: var(--pri-90) !important;
   color: #fff !important;
 }
 
@@ -101,15 +101,6 @@
 .gl_box_toggleMobile .gl_btn-primary:hover,
 .sfv2 .gl_btn-primary:hover {
   background-color: var(--pri-90);
-}
-
-/* Bouton code promo */
-#addCouponCode .gl_btn {
-  background-color: var(--sec-20);
-}
-
-#addCouponCode .gl_btn:hover {
-  background-color: var(--pri);
 }
 
 /* Bouton ajouter un forfait */

@@ -14,3 +14,14 @@
 .pull-right {
   max-width: 190px !important;
 }
+
+/* Bouton code promo */
+
+/* Bouton code promo */
+#addCouponCode .gl_btn {
+  background-color: var(--pri-20);
+}
+
+#addCouponCode .gl_btn:hover {
+  background-color: var(--pri);
+}

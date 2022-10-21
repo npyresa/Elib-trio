@@ -1,7 +1,11 @@
+/* ==================================== */
+/* ========ETAPE PRINCIPALE============= */
+/* ===================================== */
+
 /* Bouton - step classique */
 
 .btn-main {
-  background-color: var(--sec);
+  background-color: var(--pri);
   color: white;
   border-radius: 8px !important;
 }
@@ -19,6 +23,19 @@
 }
 
 /* Label produit */
+#detail_top_content .detail_titles_container .title {
+  background-color: var(--pri);
+  color: #fff;
+}
+
+/* Prix */
+#ticket_container .ticket .ticket_header .price {
+  color: var(--pri);
+}
+
+/* ============================ */
+/* ========OPTIONS============= */
+/* ============================ */
 
 /* Fix bug options */
 .option_item .option_desc {
