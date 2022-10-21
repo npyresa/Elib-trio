@@ -5,7 +5,7 @@ header .right-area #user-menu .npytel {
 
 /* Customisation selecteur de langue     */
 #lang_menu > li {
-  background-color: var(--cvpv2_primary_color);
+  background-color: var(--pri);
   color: #fff;
   font-size: 0.8em;
   transform: translateY(3px);
@@ -13,6 +13,6 @@ header .right-area #user-menu .npytel {
 
 #lang_menu .submenu {
   background-color: #dec3f9a8;
-  color: var(--cvpv2_primary_color);
+  color: var(--pri);
   font-weight: 900;
 }

@@ -1,6 +1,6 @@
 /* Upper footer */
 div[data-cms-type='footer'] {
-  background-color: var(--cvpv2_primary_color) !important ;
+  background-color: var(--pri) !important ;
 }
 
 .footerPhoneNumber_number {

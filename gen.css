@@ -57,7 +57,7 @@
   font-family: 'Poppins' !important;
 }
 
-/* Boutons */
+/* Boutons - page produit */
 
 .ticket_form #ticket_submit:hover,
 .ticket_form #ticket_submit:hover {
@@ -66,25 +66,41 @@
   color: #fff !important;
 }
 
+/* Bouton page options */
+
+.ticket_form #simulation_submit:focus,
+.ticket_form #simulation_submit:active,
+.ticket_form #simulation_submit:hover,
+.ticket_form #ticket_submit:focus,
+.ticket_form #ticket_submit:active,
+.ticket_form #ticket_submit:hover,
+#ticket_container .ticket .ticket_form #ticket_submit:focus,
+#ticket_container .ticket .ticket_form #ticket_submit:active,
+#ticket_container .ticket .ticket_form #ticket_submit:hover {
+  background-color: var(--pri-90) !important;
+  border-color: var(--pri-90) !important;
+  color: #fff !important;
+}
+
 .gl_box_toggleMobile .gl_btn,
 .sfv2 .gl_btn {
   border-radius: 6px !important;
-  background: var(--sec);
+  background: var(--pri);
 }
 
 .gl_box_toggleMobile .gl_btn:hover,
 .sfv2 .gl_btn:hover {
-  background: var(--sec-60);
+  background: var(--pri-90);
 }
 
 .gl_box_toggleMobile .gl_btn-primary,
 .sfv2 .gl_btn-primary {
-  background-color: var(--sec);
+  background-color: var(--pri);
 }
 
 .gl_box_toggleMobile .gl_btn-primary:hover,
 .sfv2 .gl_btn-primary:hover {
-  background-color: var(--sec-60);
+  background-color: var(--pri-90);
 }
 
 /* Bouton code promo */
@@ -93,27 +109,47 @@
 }
 
 #addCouponCode .gl_btn:hover {
-  background-color: var(--sec);
+  background-color: var(--pri);
 }
 
 /* Bouton ajouter un forfait */
 #main_content.sfv2 .cart_resume .addforfait {
-  color: var(--sec) !important;
+  color: var(--pri) !important;
   font-weight: 700;
   background: #fff;
 }
 
 #main_content.sfv2 .cart_resume .addforfait:hover {
-  color: var(--sec-60) !important;
+  color: var(--pri-90) !important;
   background: #fff;
 }
 
 /* Bouton valider le panier - bottom*/
 
 #main_content.sfv2 .cart_resume .paiement.btn-main {
-  background-color: var(--sec);
+  background-color: var(--pri);
 }
 
 #main_content.sfv2 .cart_resume .paiement.btn-main:hover {
-  background-color: var(--sec-60);
+  background-color: var(--pri-90);
+}
+
+/* Checkout - Bouton détail de la commande */
+
+.gl_cart_summaryButtonToggle {
+  background: var(--pri) !important;
+  color: #fff;
+}
+
+.gl_cart_summaryButtonToggle:hover {
+  opacity: 0.9;
+}
+
+/* Checkout - Boutin validation perso skieur */
+
+.detailItemContainer .validateButton .validateZone button,
+.validateButton .validateZone button:hover {
+  background-color: var(--pri);
+  font-weight: 900;
+  padding: 25px 10px !important;
 }
